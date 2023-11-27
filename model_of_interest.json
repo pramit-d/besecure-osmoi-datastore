@@ -52,5 +52,56 @@
     "prohibited_uses": "Production use without adequate assessment of risks and mitigation; any use cases which may be considered irresponsible or harmful.",
     "monitoring": "None",
     "feedback": "https://huggingface.co/tiiuae/falcon-180b/discussions"
+  },
+  {
+    "type": "model",
+    "name": "StarCoder",
+    "organization": "BigCode",
+    "description": "StarCoder is a Large Language Model for Code (Code LLM) trained on permissively licensed data from GitHub, including from 80+ programming languages, Git commits, GitHub issues, and Jupyter notebooks.",
+    "created_date": "2023-05-09T00:00:00.000Z",
+    "url": "https://arxiv.org/pdf/2305.06161.pdf",
+    "model_card": "https://huggingface.co/bigcode/starcoder",
+    "modality": "code; code",
+    "analysis": "Tested on several benchmarks, most notably Python benchmark HumanEval.",
+    "size": "15.5B parameters (dense)",
+    "dependencies": [
+      "The Stack"
+    ],
+    "training_emissions": "16.68 tons of CO2eq",
+    "training_time": "2 days",
+    "training_hardware": "64 NVIDIA A100 GPUs",
+    "quality_control": "No specific quality control is mentioned in model training, though details on data processing and how the tokenizer was trained are provided in the paper.",
+    "access": "open",
+    "license": "Apache 2.0",
+    "intended_uses": "With a Tech Assistant prompt and not as an instruction model given training limitations.",
+    "prohibited_uses": "",
+    "monitoring": "",
+    "feedback": "https://huggingface.co/bigcode/starcoder/discussions"
+  },
+  {
+    "type": "model",
+    "name": "Flan-UL2",
+    "organization": "Google",
+    "description": "",
+    "created_date": "2023-03-02T00:00:00.000Z",
+    "url": "https://arxiv.org/abs/2205.05131",
+    "model_card": "",
+    "modality": "text; text",
+    "analysis": "",
+    "size": "20B parameters (dense)",
+    "dependencies": [
+      "UL2",
+      "Flan Collection"
+    ],
+    "training_emissions": "",
+    "training_time": "",
+    "training_hardware": "",
+    "quality_control": "",
+    "access": "open",
+    "license": "Apache 2.0",
+    "intended_uses": "",
+    "prohibited_uses": "",
+    "monitoring": "",
+    "feedback": ""
   }
 ]
